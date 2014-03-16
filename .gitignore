@@ -1,0 +1,7 @@
+*.idea/**
+*.iml
+*.classpath
+*.project
+grails-app/assets/bower_components
+out
+target

@@ -1,0 +1,56 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Programs\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Programs\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/angular/bower-angular-mocks#1.2.3' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose node symlink C:\Programs\nodejs\\node.exe
+5 verbose cache add [ 'https://github.com/angular/bower-angular-mocks#1.2.3', null ]
+6 verbose cache add name=undefined spec="https://github.com/angular/bower-angular-mocks#1.2.3" args=["https://github.com/angular/bower-angular-mocks#1.2.3",null]
+7 verbose parsed url { protocol: 'https:',
+7 verbose parsed url   slashes: true,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: 'github.com',
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: 'github.com',
+7 verbose parsed url   hash: '#1.2.3',
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '/angular/bower-angular-mocks',
+7 verbose parsed url   path: '/angular/bower-angular-mocks',
+7 verbose parsed url   href: 'https://github.com/angular/bower-angular-mocks#1.2.3' }
+8 silly lockFile e56454a7-ngular-bower-angular-mocks-1-2-3 https://github.com/angular/bower-angular-mocks#1.2.3
+9 verbose lock https://github.com/angular/bower-angular-mocks#1.2.3 C:\Users\vsrinivasan\AppData\Roaming\npm-cache\e56454a7-ngular-bower-angular-mocks-1-2-3.lock
+10 verbose addRemoteTarball [ 'https://github.com/angular/bower-angular-mocks#1.2.3', null ]
+11 info retry fetch attempt 1 at 07:45:51
+12 verbose fetch to= C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\tmp.tgz
+13 http GET https://github.com/angular/bower-angular-mocks#1.2.3
+14 http 200 https://github.com/angular/bower-angular-mocks#1.2.3
+15 verbose tar unpack C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\tmp.tgz
+16 silly lockFile 86c44dac-1787-0-28464826801791787-package tar://C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\package
+17 verbose lock tar://C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\package C:\Users\vsrinivasan\AppData\Roaming\npm-cache\86c44dac-1787-0-28464826801791787-package.lock
+18 silly lockFile 26d1e613-1787-0-28464826801791787-tmp-tgz tar://C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\tmp.tgz
+19 verbose lock tar://C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\tmp.tgz C:\Users\vsrinivasan\AppData\Roaming\npm-cache\26d1e613-1787-0-28464826801791787-tmp-tgz.lock
+20 silly gunzTarPerm modes [ '755', '644' ]
+21 error not a package C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\tmp.tgz
+22 silly lockFile 86c44dac-1787-0-28464826801791787-package tar://C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\package
+23 silly lockFile 86c44dac-1787-0-28464826801791787-package tar://C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\package
+24 silly lockFile 26d1e613-1787-0-28464826801791787-tmp-tgz tar://C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\tmp.tgz
+25 silly lockFile 26d1e613-1787-0-28464826801791787-tmp-tgz tar://C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\tmp.tgz
+26 silly lockFile e56454a7-ngular-bower-angular-mocks-1-2-3 https://github.com/angular/bower-angular-mocks#1.2.3
+27 silly lockFile e56454a7-ngular-bower-angular-mocks-1-2-3 https://github.com/angular/bower-angular-mocks#1.2.3
+28 error Error: ENOENT, open 'C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\package\package.json'
+29 error If you need help, you may report this log at:
+29 error     <http://github.com/isaacs/npm/issues>
+29 error or email it to:
+29 error     <npm-@googlegroups.com>
+30 error System Windows_NT 6.1.7601
+31 error command "C:\\Programs\\nodejs\\\\node.exe" "C:\\Programs\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "https://github.com/angular/bower-angular-mocks#1.2.3"
+32 error cwd C:\PocSpace\angrails\test\javascript\lib
+33 error node -v v0.10.22
+34 error npm -v 1.3.14
+35 error path C:\Users\VSRINI~1\AppData\Local\Temp\npm-6664-c03077Kg\1393767951787-0.28464826801791787\package\package.json
+36 error code ENOENT
+37 error errno 34
+38 verbose exit [ 34, true ]
